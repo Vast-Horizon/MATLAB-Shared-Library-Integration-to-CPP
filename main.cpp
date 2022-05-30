@@ -43,7 +43,7 @@ int main() {
 	*/
 
 	/*Open file*/
-	std::ifstream inFile("C:/Users/Fiavi Yang/Desktop/Mac study folder/labwork/DllExample2/mydata.txt");
+	std::ifstream inFile("mydata.txt");
 	if (!inFile) {
 		std::cout << "Couldn't open the file" << std::endl;
 		exit(1);
