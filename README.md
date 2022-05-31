@@ -5,7 +5,7 @@ This program is an example of using MATLAB generated lib/dll in a C++ environmen
 Please watch the demo video: https://youtu.be/R8kBlu9kYDE
 
 .dll, .lib, .h files are generated from a MATLAB function avgFunc.m.
-mcc -W 'cpplib:FuncLib,all' -T link:lib Func.m
+%mcc -W 'cpplib:avgFuncLib,all' -T link:lib avgFunc.m
 
 
 main.cpp is the source c++ code for this demonstration.
